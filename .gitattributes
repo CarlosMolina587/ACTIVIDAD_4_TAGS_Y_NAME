@@ -10,7 +10,7 @@ function bebidas() {
   var i = document.getElementById('cantidad').value;
 
 
-
+ 
 
   if (elegida == 0) {
     document.getElementById('resultado').innerHTML = "Café: $" + cafe * cantidad;
